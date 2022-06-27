@@ -2,8 +2,8 @@
 <h5>Various kinds of Linux code search on the Internet by myself and use to review.<br>
 记录我自己在网上收集到的各种用到的 Linux code<h5>
 
-<h3>Linux-debian</h3>
-### 前置-Frist
+<h3><font color="red">Linux-debian</font></h3>
+<h5>前置-Frist</h5> 
 apt update | 
 
 ### 安装-install  
