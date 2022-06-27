@@ -14,9 +14,12 @@
 
 
 <h3> v2ray-code </h3>
-  <pre>
-  1. curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh  下载安装脚本
-  2. bash install-release.sh  安装|更新 V2ray主程序 (bash install-release.sh -h 帮助)
-  3. systemctl start|enable|stop v2ray  启动|自动启动|关闭 V2ray
+  
+  <h5>服务器端</h5>
+  1. curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh  下载安装脚本<br/>
+  2. bash install-release.sh 安装|更新 V2ray主程序  (bash install-release.sh -h 帮助)<br/>
+  3. systemctl start|enable|stop v2ray 启动|自动启动|关闭 V2ray<br/>
   4. 
-  </pre>
+  [客户端](https://github.com/v2fly/v2ray-core/releases)
+  
+
