@@ -12,7 +12,7 @@
   
  **命令-command**<br/>
     `date -R` 查看时间 | `ate --set` 修改时间                                         <br/>
-    `systemct stop|start|restart|reload|disable|enable` 
+    `systemctl stop|start|restart|reload|disable|enable` 
 
 
 ## v2ray-code 
