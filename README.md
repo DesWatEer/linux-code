@@ -8,7 +8,7 @@
     `apt update` 
 
  **安装-install**<br/>
-    `apt install curl` 
+    `apt install curl|nginx` 
   
  **命令-command**<br/>
     `date -R` 查看时间 | `ate --set` 修改时间
