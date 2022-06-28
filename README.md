@@ -12,6 +12,7 @@
   
  **命令-command**<br/>
     `date -R` 查看时间 | `ate --set` 修改时间                                         <br/>
+    `chmod -R 755 路径` 775权限                                                              <br/>
     `systemctl stop|start|restart|reload|disable|enable` 
 
 
