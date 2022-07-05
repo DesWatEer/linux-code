@@ -1,0 +1,96 @@
+ "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "domainMatcher": "mph",
+    "rules": [
+      {
+        "type": "field",
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "enabled": true
+      },
+      {
+        "type": "field",
+        "inboundTag": [],
+        "outboundTag": "direct",
+        "protocol": [
+          "bittorrent"
+        ],
+        "enabled": true
+      },
+      {
+        "type": "field",
+        "inboundTag": [],
+        "outboundTag": "block",
+        "domain": [
+          "geosite:category-ads-all"
+        ],
+        "enabled": true
+      },
+      {
+        "type": "field",
+        "inboundTag": [],
+        "outboundTag": "proxy",
+        "domain": [
+          "full:www.icloud.com",
+          "domain:icloud-content.com",
+          "domain:iwara.tv",
+          "geosite:google"
+        ],
+        "enabled": true
+      },
+      {
+        "type": "field",
+        "inboundTag": [],
+        "outboundTag": "direct",
+        "domain": [
+          "geosite:tld-cn",
+          "geosite:icloud",
+          "domain:bing.com",
+          "domain:store.ubi.com",
+          "domain:ol.epicgames.com",
+          "domain:tracking.epicgames.com",
+          "domain:steamcontent.com",
+          "geosite:steam@cn",
+          "geosite:category-games@cn"
+        ],
+        "enabled": true
+      },
+      {
+        "type": "field",
+        "inboundTag": [],
+        "outboundTag": "proxy",
+        "domain": [
+          "geosite:geolocation-!cn"
+        ],
+        "enabled": true
+      },
+      {
+        "type": "field",
+        "inboundTag": [],
+        "outboundTag": "direct",
+        "domain": [
+          "geosite:cn",
+          "geosite:private"
+        ],
+        "enabled": true
+      },
+      {
+        "type": "field",
+        "inboundTag": [],
+        "outboundTag": "direct",
+        "ip": [
+          "geoip:cn",
+          "geoip:private"
+        ],
+        "enabled": true
+      },
+      {
+        "type": "field",
+        "port": "0-65535",
+        "inboundTag": [],
+        "outboundTag": "proxy",
+        "enabled": true
+      }
+    ]
